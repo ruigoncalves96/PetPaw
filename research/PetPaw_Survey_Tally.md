@@ -342,7 +342,8 @@ EN · PT
 
 ### C9 · Hardest animal (multi-species only)
 - **Block:** Multiple choice · Optional
-- **Logic:** Show if `species_count` ≥ 2 (two or more *kinds* of animal ticked in A2). Each option is hidden when A2 does not contain the matching species, so respondents only see the animals they selected (10 HIDE rules: "A2 does not contain X → hide option X").
+- **Logic:** Visible by default. **Hide** the whole question if `species_count` < 2 (fewer than two *kinds* of animal ticked in A2). Each option is hidden when A2 does not contain the matching species, so respondents only see the animals they selected (10 HIDE rules: "A2 does not contain X → hide option X").
+  - ⚠️ Use only HIDE rules here, never "SHOW question". In Tally, a SHOW on the whole question re-shows *all* its options and overrides the per-option HIDE rules.
 - **EN:** Which of your animals takes the most effort to keep track of?
 - **PT:** Qual dos seus animais dá mais trabalho a acompanhar?
 - **Options:** same 10 options as A2 (EN/PT). In the forms, "Farm animals" and "Invertebrates" appear without the bracketed examples.
