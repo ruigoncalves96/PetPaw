@@ -106,6 +106,13 @@ Example share link: `https://tally.so/r/XXXX?lang=en&src=reddit_reptiles`
 | 6–10 | 6–10 |
 | More than 10 | Mais de 10 |
 
+- **Logic (consistency with A2):** a hidden **calculated field** `species_count` (NUMBER, starts at 0) gets +1 for each A2 option ticked (10 CALCULATE rules on page 2). Then:
+  - `species_count ≥ 2` → hide option "1"
+  - `species_count ≥ 3` → hide option "2"
+  - `species_count ≥ 6` → hide option "3–5"
+
+  So nobody can report fewer animals than the number of species they ticked. `species_count` also appears as a column in the export, which is handy for the multi-species segment.
+
 ### A4 · Who cares for them
 - **Block:** Checkboxes · **Required**
 - **EN:** Who helps take care of them? *Select all that apply.*
@@ -403,6 +410,12 @@ EN · PT
 - **PT:** Já alguma vez usou uma app de cuidados para animais?
 - **Options:** Yes, and I still use it / Sim, e ainda uso · Yes, but I stopped / Sim, mas deixei de usar · No, never / Não, nunca
 
+### D4b · Which app (current users)
+- **Block:** Short answer · Optional
+- **Logic:** Show if D4 = "Yes, and I still use it" **and** B2 is empty, so people who already named their app in B2 aren't asked twice.
+- **EN:** Which app do you use?
+- **PT:** Que app utiliza?
+
 ### D5 · Why stopped
 - **Block:** Checkboxes · Optional
 - **Logic:** Show if D4 = "Yes, but I stopped"
@@ -544,6 +557,8 @@ EN · PT
 | `D2_one_thing` | One thing | text | Theme-code |
 | `D3_share_with` | Share with | multi | |
 | `D4_app_use` | Past app use | single | |
+| `D4b_app_name` | Current app (if not given in B2) | text | Merge with `B2_app_name` |
+| `species_count` | calculated | number | Count of A2 species ticked |
 | `D5_why_stopped` | Why stopped | multi | **Churn reasons** |
 | `E1_paid_now` | Paid services | multi | |
 | `E2_pay_pref` | Payment preference | single | |
