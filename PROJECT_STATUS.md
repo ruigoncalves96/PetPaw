@@ -20,6 +20,7 @@ A cross-platform app (iOS, Android, maybe web) for pet owners to manage everythi
 ## Roadmap position: Phase 0 (Validate & design)
 - [x] PRD review, market study, roadmap
 - [x] Survey designed, built in Tally, and **published** (18 Nov 2026)
+- [x] Survey **finished and ready to share** (18 Nov 2026): exclusive options, B5 removed, WhatsApp share link on the thank-you page
 - [ ] Connect Google Sheets to both forms (owner must sign in to Google in Tally → Integrations)
 - [ ] Send one test response per form, check that `lang` / `src` / `species_count` arrive, then delete the test rows
 - [ ] Pilot with about 5 people (including 2 exotic keepers)
@@ -38,10 +39,11 @@ A cross-platform app (iOS, Android, maybe web) for pet owners to manage everythi
 
 - **Structure (both forms identical):**
   - 8 pages: intro → about you → current care → species-specific → what would help → paying → stay in touch → thank you
-  - 42 logic rules
+  - 52 logic rules (42 + 10 for exclusive options)
 - **Tracking:**
   - Hidden fields `lang` and `src` come from the URL, e.g. `https://tally.so/r/X5oN8Y?lang=pt&src=fb_caes_pt`.
-  - The calculated field `species_count` counts the species ticked.
+  - The calculated field `species_count` counts the *kinds* of animal ticked in A2 (all 10 options). It drives 4 HIDE rules (animal-count options and "most effort") and gives the multi-species segment (≥2). Keep it.
+  - The thank-you page has a WhatsApp share link (`wa.me`) and a copy link, both tagged `src=friends` and the form's `lang`.
 - **Logic highlights:**
   - "No pets" jumps to the follow-up page. "Under 18" ends the form.
   - Species blocks are shown per animal ticked.
@@ -55,5 +57,5 @@ A cross-platform app (iOS, Android, maybe web) for pet owners to manage everythi
 - The Tally tool results are very large (about 70k characters). Read the saved output with `jq` (`.context.feedback`, `.context.ledger`).
 
 ## Git
-- Branch `research/owner-survey`, **not pushed and not merged** into `main`. Commits d50da0e → 82fcad3 (plus this status file).
+- Branch `research/owner-survey`, pushed to `origin`, **not merged** into `main` yet. Commits d50da0e → latest.
 - `main` has the earlier commit "PRD" (market study).

@@ -1,7 +1,7 @@
 # Pet Owner Survey (Tally build sheet)
 
 *The respondent-facing text is kept brand-neutral, since the app's final name isn't decided.*
-*Published 18 Nov 2026. EN: https://tally.so/r/RWor84 · PT: https://tally.so/r/X5oN8Y (edit at `tally.so/forms/<id>/edit`).*
+*Published 18 Nov 2026 · **final version, ready to share**. EN: https://tally.so/r/RWor84 · PT: https://tally.so/r/X5oN8Y (edit at `tally.so/forms/<id>/edit`).*
 *Share links with tracking, e.g. `https://tally.so/r/X5oN8Y?lang=pt&src=fb_caes_pt`*
 
 *Phase 0 · Validation. Goal: quantify pains and species mix, and recruit 15–20 interviewees.*
@@ -615,8 +615,8 @@ Tag each answer with 1–2 codes in a `B4_codes` column, then count them. You ca
 
 ## 10. Launch checklist
 
-- [ ] Build the EN form and test **every logic branch** (No pets, under 18, each species, stopped app use, no follow-up).
-- [ ] Duplicate it to PT and check that the option order matches EN exactly.
+- [x] Build the EN form and test **every logic branch** (No pets, under 18, each species, stopped app use, no follow-up).
+- [x] Duplicate it to PT and check that the option order matches EN exactly.
 - [ ] Connect both forms to Google Sheets and check that hidden fields arrive.
 - [ ] **Pilot with 5 people** (2 dog/cat, 2 exotic, 1 non-tech). Time them, and stop and fix anything that takes >8 minutes or confuses anyone.
 - [ ] Add a short privacy note link (a simple Notion or Tally page saying what you collect, why, and how to delete it).
