@@ -525,9 +525,13 @@ EN · PT
 - **PT:** Há mais alguma coisa que nos queira dizer?
 
 ### Thank-you page
-- **EN:** 🎉 **Thank you!** You're helping build something for every animal out there. 🐾 **One more small favour?** The more pet owners answer, the better the app will be for you and your animals. Please share this survey with family and friends who have pets, of any kind (dogs, cats, birds, reptiles, fish, horses…). It only takes a few minutes. 👉 link `https://tally.so/r/RWor84?lang=en&src=share` · Copy the link and send it on WhatsApp, Messenger or by email. Thank you! 💛
-- **PT:** 🎉 **Obrigado!** Está a ajudar a criar algo para todos os animais. 🐾 **Só mais um pequeno favor?** Quantos mais tutores responderem, melhor será a app para si e para os seus animais. Partilhe este inquérito com familiares e amigos que tenham animais, de qualquer espécie (cães, gatos, aves, répteis, peixes, cavalos…). Demora só alguns minutos. 👉 link `https://tally.so/r/X5oN8Y?lang=pt&src=share` · Copie o link e envie por WhatsApp, Messenger ou email. Obrigado! 💛
-- The share link carries `src=share`, so responses that came from word of mouth can be counted. Add `share` to your list of `src` values.
+- **EN:** 🎉 **Thank you!** You're helping build something for every animal out there. 🐾 **One more small favour?** The more pet owners answer, the better the app will be for you and your animals. Please share this survey with family and friends who have pets, of any kind (dogs, cats, birds, reptiles, fish, horses…). It only takes a few minutes. 📲 **Share on WhatsApp** (link) · Or copy the link and send it on Messenger or by email: 👉 `https://tally.so/r/RWor84?lang=en&src=friends` · Thank you! 💛
+- **PT:** 🎉 **Obrigado!** Está a ajudar a criar algo para todos os animais. 🐾 **Só mais um pequeno favor?** Quantos mais tutores responderem, melhor será a app para si e para os seus animais. Partilhe este inquérito com familiares e amigos que tenham animais, de qualquer espécie (cães, gatos, aves, répteis, peixes, cavalos…). Demora só alguns minutos. 📲 **Partilhar no WhatsApp** (link) · Ou copie o link e envie por Messenger ou email: 👉 `https://tally.so/r/X5oN8Y?lang=pt&src=friends` · Obrigado! 💛
+- **WhatsApp button:** a `https://wa.me/?text=…` link that opens WhatsApp with this message already written, so the person only picks who to send it to:
+  - EN: "Hi! I'm helping with a short survey about caring for pets. If you have any animals, could you answer it? It only takes a few minutes 🐾 https://tally.so/r/RWor84?lang=en&src=friends"
+  - PT: "Olá! Estou a ajudar com um inquérito curto sobre cuidados com animais. Se tens animais, podes responder? Demora só alguns minutos 🐾 https://tally.so/r/X5oN8Y?lang=pt&src=friends"
+- It shows as a bold link, not a styled button: button styling needs custom CSS, which only applies on the published form with Tally Pro.
+- Both share links carry `src=friends`, so responses that came from word of mouth can be counted. Add `friends` to your list of `src` values.
 
 ---
 
