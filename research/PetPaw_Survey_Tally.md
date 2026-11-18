@@ -22,6 +22,7 @@
 - **Option labels must be unique words.** Don't use both "Dog" and "Dog walker" as options in one question, because `COUNTIF(..."*Dog*")` would match both.
 - **Keep option order fixed** across EN and PT (same position = same meaning). Use the **Codebook IDs** (§9) as your column names in the analysis sheet.
 - **Keep the question IDs (A1, B2…) out of the visible title.** They're for you only. Tally lets you write a short internal title per block if you want it.
+- **Exclusive options** ("None of these", "Nobody", "Only me", "I don't really track it") use HIDE-only logic, since Tally has no built-in exclusive checkbox: ticking the exclusive option hides the others, and ticking any other hides it (A4, B1, B3, D3, E1).
 
 ---
 
@@ -128,7 +129,7 @@ Example share link: `https://tally.so/r/XXXX?lang=en&src=reddit_reptiles`
 | 5 | Friends or neighbours when I'm away | Amigos ou vizinhos quando estou fora |
 | 6 | A stable / livery / boarding facility | Uma coudelaria / estábulo / hotel para animais |
 
-- No logic. Analysis uses this question to define the *shared care* segment.
+- No visibility logic. **Exclusive option:** "Only me" can't be combined with any other answer. Two HIDE rules: ticking it hides the other options, and ticking any other option hides it. Analysis uses this question to define the *shared care* segment.
 
 ### A5 · Your role
 - **Block:** Checkboxes · **Required**
@@ -181,6 +182,7 @@ Example share link: `https://tally.so/r/XXXX?lang=en&src=reddit_reptiles`
 | 8 | Notebook / paper log | Caderno / registo em papel |
 | 9 | I don't really track it | Não registo |
 | 10 | Other | Outro |
+- **Exclusive option:** "I don't really track it" can't be combined with any other answer. Two HIDE rules: ticking it hides the other options, and ticking any other option hides it.
 
 ### B2 · Which app
 - **Block:** Short answer · Optional
@@ -205,6 +207,7 @@ Example share link: `https://tally.so/r/XXXX?lang=en&src=reddit_reptiles`
 | 8 | Problems with travel documents / passport / vaccine validity | Problemas com documentos de viagem / passaporte / validade de vacinas |
 | 9 | Noticed a health problem late (weight loss / not eating…) | Detetei um problema de saúde tarde (perda de peso / falta de apetite…) |
 | 10 | None of these | Nenhuma destas |
+- **Exclusive option:** "None of these" can't be combined with any other answer. Two HIDE rules: ticking it hides the other options, and ticking any other option hides it.
 
 ### B4 · The story (open)
 - **Block:** Long answer · Optional (but this is the most valuable answer, so keep it visible)
@@ -213,13 +216,8 @@ Example share link: `https://tally.so/r/XXXX?lang=en&src=reddit_reptiles`
 - **PT:** Conte-nos a última vez que uma destas situações aconteceu. O que se passou e o que fez?
 - Placeholder EN: *e.g. "My partner and I both gave the dog his pill…"* · PT: *ex.: "Eu e o meu companheiro demos os dois o comprimido ao cão…"*
 
-### B5 · Vet frequency
-- **Block:** Multiple choice · **Required**
-- **EN:** On average, how often does each animal go to the vet per year?
-- **PT:** Em média, quantas vezes por ano vai cada animal ao veterinário?
-- **Options:** Never / Nunca · Once / 1 vez · 2–3 times / 2–3 vezes · 4 or more / 4 ou mais · It varies a lot / Varia muito
-
 ### B6 · Monthly spend
+> B5 (vet visits per year) was removed on 18 Nov 2026 because it was hard to answer for several animals and no analysis used it. IDs were kept, so there is no B5.
 - **Block:** Multiple choice · **Required**
 - **EN:** Roughly how much do you spend on your animals per month, excluding emergencies?
 - **PT:** Aproximadamente quanto gasta por mês com os seus animais, excluindo emergências?
@@ -405,6 +403,7 @@ EN · PT
 | 4 | Breeder / shelter I got the animal from | Criador / associação de onde veio o animal |
 | 5 | Friends / neighbours | Amigos / vizinhos |
 | 6 | Nobody | Ninguém |
+- **Exclusive option:** "Nobody" can't be combined with any other answer. Two HIDE rules: ticking it hides the other options, and ticking any other option hides it.
 
 ### D4 · Past app use
 - **Block:** Multiple choice · **Required**
@@ -459,6 +458,7 @@ EN · PT
 | 4 | Pet app subscription | Subscrição de app para animais |
 | 5 | Food delivery subscription | Subscrição de entrega de ração |
 | 6 | None of these | Nenhum destes |
+- **Exclusive option:** "None of these" can't be combined with any other answer. Two HIDE rules: ticking it hides the other options, and ticking any other option hides it.
 
 ### E2 · Payment preference
 - **Block:** Multiple choice · **Required**
@@ -525,8 +525,9 @@ EN · PT
 - **PT:** Há mais alguma coisa que nos queira dizer?
 
 ### Thank-you page
-- **EN:** 🎉 **Thank you!** You're helping build something for every animal out there. If you know someone with an unusual pet (or just a lot of pets!), please share this survey: `[link]`
-- **PT:** 🎉 **Obrigado!** Está a ajudar a criar algo para todos os animais. Se conhece alguém com um animal diferente (ou com muitos animais!), partilhe este inquérito: `[link]`
+- **EN:** 🎉 **Thank you!** You're helping build something for every animal out there. 🐾 **One more small favour?** The more pet owners answer, the better the app will be for you and your animals. Please share this survey with family and friends who have pets, of any kind (dogs, cats, birds, reptiles, fish, horses…). It only takes a few minutes. 👉 link `https://tally.so/r/RWor84?lang=en&src=share` · Copy the link and send it on WhatsApp, Messenger or by email. Thank you! 💛
+- **PT:** 🎉 **Obrigado!** Está a ajudar a criar algo para todos os animais. 🐾 **Só mais um pequeno favor?** Quantos mais tutores responderem, melhor será a app para si e para os seus animais. Partilhe este inquérito com familiares e amigos que tenham animais, de qualquer espécie (cães, gatos, aves, répteis, peixes, cavalos…). Demora só alguns minutos. 👉 link `https://tally.so/r/X5oN8Y?lang=pt&src=share` · Copie o link e envie por WhatsApp, Messenger ou email. Obrigado! 💛
+- The share link carries `src=share`, so responses that came from word of mouth can be counted. Add `share` to your list of `src` values.
 
 ---
 
@@ -549,7 +550,6 @@ EN · PT
 | `B2_app_name` | App used | text | Normalise names manually |
 | `B3_pains` | Pain events | multi | **Key metric** |
 | `B4_story` | Story | long text | Theme-code (below) |
-| `B5_vet_freq` | Vet frequency | single | |
 | `B6_spend` | Monthly spend | single | |
 | `C1`–`C8` | Species tracking | multi / text | One column per species |
 | `C5b_reptile_method` | Reptile logging method | multi | |

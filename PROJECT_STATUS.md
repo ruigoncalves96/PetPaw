@@ -49,6 +49,7 @@ A cross-platform app (iOS, Android, maybe web) for pet owners to manage everythi
   - "Most effort" is visible by default and hidden if `species_count` < 2, and its options are hidden per species not ticked.
   - "Which app do you use?" is shown for "still use it" only if the earlier "Which app(s)" answer is empty.
   - Email and consent appear only when the person opts in.
+- **Exclusive options** ("None of these", "Nobody", "Only me", "I don't really track it" in A4, B1, B3, D3, E1) use paired HIDE rules, because Tally has no built-in exclusive checkbox (added 18 Nov 2026, both forms).
 - **Tally lesson learned:** a SHOW rule on a whole question re-shows *all* of its options and overrides per-option HIDE rules. Where options are filtered, use HIDE-only logic.
 - **Every change must be made in BOTH forms**, keeping the options in the same order, and mirrored in the build sheet.
 - The Tally tool results are very large (about 70k characters). Read the saved output with `jq` (`.context.feedback`, `.context.ledger`).
