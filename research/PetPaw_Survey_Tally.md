@@ -1,7 +1,8 @@
 # Pet Owner Survey (Tally build sheet)
 
 *The respondent-facing text is kept brand-neutral, since the app's final name isn't decided.*
-*Live drafts: EN `RWor84` · PT `X5oN8Y` (`tally.so/forms/<id>/edit`).*
+*Published 18 Nov 2026. EN: https://tally.so/r/RWor84 · PT: https://tally.so/r/X5oN8Y (edit at `tally.so/forms/<id>/edit`).*
+*Share links with tracking, e.g. `https://tally.so/r/X5oN8Y?lang=pt&src=fb_caes_pt`*
 
 *Phase 0 · Validation. Goal: quantify pains and species mix, and recruit 15–20 interviewees.*
 *Target length: **6–8 minutes**, about 25–30 questions per respondent (conditional logic hides the rest).*
