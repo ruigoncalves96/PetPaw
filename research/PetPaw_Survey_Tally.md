@@ -1,4 +1,7 @@
-# PetPaw — Pet Owner Survey (Tally build sheet)
+# Pet Owner Survey (Tally build sheet)
+
+*The respondent-facing text is kept brand-neutral, since the app's final name isn't decided.*
+*Live drafts: EN `RWor84` · PT `X5oN8Y` (`tally.so/forms/<id>/edit`).*
 
 *Phase 0 · Validation. Goal: quantify pains and species mix, and recruit 15–20 interviewees.*
 *Target length: **6–8 minutes**, about 25–30 questions per respondent (conditional logic hides the rest).*
@@ -335,7 +338,13 @@ EN · PT
 - **Logic:** Show if A3 ≠ "1"
 - **EN:** Which of your animals takes the most effort to keep track of?
 - **PT:** Qual dos seus animais dá mais trabalho a acompanhar?
-- **Options:** same 10 options as A2 (EN/PT)
+- **Options:** same 10 options as A2 (EN/PT). In the forms, "Farm animals" and "Invertebrates" appear without the bracketed examples.
+
+### C9b · Why that one
+- **Block:** Long answer · Optional
+- **Logic:** Show if C9 is not empty
+- **EN:** Why is that one the hardest?
+- **PT:** Porque é que esse é o que dá mais trabalho?
 
 **— Page break —**
 
@@ -411,7 +420,8 @@ EN · PT
 | 7 | I just forgot about it | Simplesmente esqueci-me dela |
 | 8 | Lost my data / changed phone | Perdi os dados / mudei de telemóvel |
 | 9 | Not available in my language | Não estava disponível na minha língua |
-| 10 | Other | Outro |
+| 10 | Not user friendly | Pouco intuitiva / difícil de usar |
+| 11 | Other | Outro |
 
 **— Page break —**
 
@@ -490,8 +500,9 @@ EN · PT
 ### F4 · Consent (GDPR)
 - **Block:** Checkbox (single) · **Required when shown**
 - **Logic:** Show if F1 contains any option
-- **EN:** I agree that PetPaw may store my email to contact me about the options I selected above. I can ask for it to be deleted at any time by replying to any email.
-- **PT:** Aceito que a PetPaw guarde o meu email para me contactar sobre as opções que selecionei acima. Posso pedir a sua eliminação a qualquer momento respondendo a qualquer email.
+- **Title in the forms:** Consent / Consentimento
+- **EN:** I agree that the team behind this project may store my email to contact me about the options I selected above. I can ask for it to be deleted at any time by replying to any email.
+- **PT:** Aceito que a equipa responsável por este projeto guarde o meu email para me contactar sobre as opções que selecionei acima. Posso pedir a sua eliminação a qualquer momento respondendo a qualquer email.
 
 ### F5 · Anything else
 - **Block:** Long answer · Optional
@@ -528,6 +539,7 @@ EN · PT
 | `C1`–`C8` | Species tracking | multi / text | One column per species |
 | `C5b_reptile_method` | Reptile logging method | multi | |
 | `C9_hardest` | Hardest animal | single | |
+| `C9b_why_hardest` | Why that one | long text | Theme-code |
 | `D1.1`–`D1.13` | Feature importance | 1–4 | Map: Not important = 1 … Must have = 4 |
 | `D2_one_thing` | One thing | text | Theme-code |
 | `D3_share_with` | Share with | multi | |
