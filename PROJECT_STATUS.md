@@ -1,6 +1,6 @@
 # Project Status & Handoff
 
-*Last updated: 18 Nov 2026. Read this first in a new session.*
+*Last updated: 19 Nov 2026. Read this first in a new session.*
 
 ## The project
 A cross-platform app (iOS, Android, maybe web) for pet owners to manage everything about their animals, for **every species** (dogs and cats first, but also rabbits, birds, reptiles, fish, horses…). The working name is "PetPaw", but the final name is **not decided**, so respondent-facing material is kept brand-neutral. The owner is based in Portugal, so the content is PT-PT + EN.
@@ -9,6 +9,7 @@ A cross-platform app (iOS, Android, maybe web) for pet owners to manage everythi
 | File | What it is |
 |---|---|
 | [PetPaw_Market_Study_and_Roadmap.md](PetPaw_Market_Study_and_Roadmap.md) | Review of the old PRD, market study, competitors, recommended features, tech stack, 5-phase roadmap, KPIs, risks |
+| [research/Competitor_PetNoter.md](research/Competitor_PetNoter.md) | PetNoter teardown: store stats, review mining (complaint/praise themes), implications, hands-on checklist |
 | [research/PetPaw_Survey_Tally.md](research/PetPaw_Survey_Tally.md) | Full survey build sheet (EN/PT), logic, codebook, analysis plan, launch checklist. **Kept in sync with the live forms.** |
 
 ## Decisions made
@@ -27,7 +28,11 @@ A cross-platform app (iOS, Android, maybe web) for pet owners to manage everythi
 - [ ] Distribute with tracking links (keep a list of every `src` used)
 - [ ] Analyse at 25–50 responses, then at 100+ (Claude can read submissions via the Tally connector)
 - [ ] Write the interview script for the 20-min calls (volunteers come from the survey's F1 question)
-- [ ] Competitor teardown (11pets, PetNoter, Pett, Vivarium, Crittora)
+- [x] Survey being distributed (Reddit, Discord, friends), started 19 Nov 2026
+- [x] Quick look at competitors by the owner: **PetNoter is the only serious one**, the rest feel cheap or clunky
+- [x] PetNoter desk teardown and review mining (19 Nov 2026), see `research/Competitor_PetNoter.md`. About 10K+ Android downloads after 5 years, little iOS traction, no PT, generic species. Weak spots: reminders, paywall, reliability.
+- [ ] PetNoter hands-on week (checklist in §6 of the teardown)
+- [ ] Remaining teardowns (11pets, Pett, Vivarium, Crittora). Optional, since the owner found them weak.
 - [ ] Name and trademark check
 - [ ] Wireframes, data model, repo skeleton
 
