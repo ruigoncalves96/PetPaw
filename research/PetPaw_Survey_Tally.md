@@ -30,6 +30,7 @@
 
 | Setting | Value |
 |---|---|
+| Form language | EN form: default · PT form: Portuguese (`language: pt`) |
 | Form title | EN: *Help us build the pet care app you actually need* · PT: *Ajude-nos a criar a app de cuidados para animais de que realmente precisa* |
 | Layout | One question group per page (use **Page breaks** between sections A–F) |
 | Progress bar | On |
@@ -211,7 +212,7 @@ Example share link: `https://tally.so/r/XXXX?lang=en&src=reddit_reptiles`
 
 ### B4 · The story (open)
 - **Block:** Long answer · Optional (but this is the most valuable answer, so keep it visible)
-- **Logic:** **Hide if** B3 = "None of these" only
+- **Logic:** Hidden by default. **Show if** B3 is any of the 9 pain options (so it stays hidden when B3 = "None of these" only)
 - **EN:** Tell us about the last time one of these happened. What happened, and what did you do?
 - **PT:** Conte-nos a última vez que uma destas situações aconteceu. O que se passou e o que fez?
 - Placeholder EN: *e.g. "My partner and I both gave the dog his pill…"* · PT: *ex.: "Eu e o meu companheiro demos os dois o comprimido ao cão…"*
@@ -306,8 +307,8 @@ EN · PT
 
 ### C5b · Reptile logging method *(show if A2 contains Reptile)*
 - **Block:** Checkboxes · Optional
-- **EN:** How do you log this today?
-- **PT:** Como regista isto hoje?
+- **EN:** How do you log this for your reptile(s) today?
+- **PT:** Como regista isto hoje para o(s) seu(s) réptil(eis)?
 - **Options:** Memory / De memória · Paper log on the enclosure / Registo em papel junto ao terrário · Spreadsheet / Folha de cálculo · Notes app / App de notas · Reptile-specific app / App específica para répteis · Other / Outro
 
 ### C6 · Fish / aquarium / pond *(show if A2 contains Fish)*
@@ -336,8 +337,8 @@ EN · PT
 
 ### C8 · Farm / invertebrates / other *(show if A2 contains Farm OR Invertebrates OR Other)*
 - **Block:** Long answer · Optional
-- **EN:** Tell us which animals and what you need to keep track of for them.
-- **PT:** Diga-nos que animais tem e o que precisa de acompanhar/registar para eles.
+- **EN:** Tell us which other animals you have and what you need to keep track of for them.
+- **PT:** Diga-nos que outros animais tem e o que precisa de acompanhar/registar para eles.
 
 ### C9 · Hardest animal (multi-species only)
 - **Block:** Multiple choice · Optional
@@ -475,7 +476,7 @@ EN · PT
 
 ### E3 · Fair price
 - **Block:** Multiple choice · Optional
-- **Logic:** Hide if E2 = option 1
+- **Logic:** Hidden by default. **Show if** E2 is option 2, 3, 4 or 5 (so it stays hidden for "Free version only")
 - **EN:** What monthly price would feel fair for a premium version (unlimited animals / sharing with sitters / automatic document scanning)?
 - **PT:** Que preço mensal lhe pareceria justo para uma versão premium (animais ilimitados / partilha com pet sitters / digitalização automática de documentos)?
 - **Options:** Up to €1.99 / Até 1,99€ · €2–3.99 / 2–3,99€ · €4–5.99 / 4–5,99€ · €6–9.99 / 6–9,99€ · €10 or more / 10€ ou mais
@@ -510,7 +511,7 @@ EN · PT
 - **Logic:** Show if F1 contains option 2
 - **EN:** Which language would you prefer for the call?
 - **PT:** Em que língua prefere a chamada?
-- **Options:** Portuguese / Português · English / Inglês · Spanish / Espanhol · Either / Tanto faz
+- **Options:** Portuguese / Português · English / Inglês · Either / Tanto faz
 
 ### F4 · Consent (GDPR)
 - **Block:** Checkbox (single) · **Required when shown**
