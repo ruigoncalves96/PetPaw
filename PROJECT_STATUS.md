@@ -9,6 +9,7 @@ A cross-platform app (iOS, Android, maybe web) for pet owners to manage everythi
 | File | What it is |
 |---|---|
 | [PetPaw_Market_Study_and_Roadmap.md](PetPaw_Market_Study_and_Roadmap.md) | Review of the old PRD, market study, competitors, recommended features, tech stack, 5-phase roadmap, KPIs, risks |
+| [brand/palette-directions.html](brand/palette-directions.html) | Brand round 1: 4 colour directions (Moss & Marigold, Lagoon & Coral, Plum & Apricot, Cobalt & Sun) with WCAG checks, light and dark mockups, shared status and species colours. Published at https://claude.ai/artifact/Ryc3aVJvTo7QboCnW437NY |
 | [research/Competitor_PetNoter.md](research/Competitor_PetNoter.md) | PetNoter teardown: store stats, review mining (complaint/praise themes), implications, hands-on checklist |
 | [research/PetPaw_Survey_Tally.md](research/PetPaw_Survey_Tally.md) | Full survey build sheet (EN/PT), logic, codebook, analysis plan, launch checklist. **Kept in sync with the live forms.** |
 
@@ -34,6 +35,8 @@ A cross-platform app (iOS, Android, maybe web) for pet owners to manage everythi
 - [ ] PetNoter hands-on week (checklist in §6 of the teardown)
 - [ ] Remaining teardowns (11pets, Pett, Vivarium, Crittora). Optional, since the owner found them weak.
 - [ ] Name and trademark check
+- [x] Brand round 1: palette directions (19 Nov 2026). Recommended Moss & Marigold, alternative Plum & Apricot. **Owner to pick 1–2 and test with 5–10 people.**
+- [ ] Brand round 2: typography, then logo and app icon once the name is chosen, then a design system
 - [ ] Wireframes, data model, repo skeleton
 
 ## Live survey (Tally, workspace "My workspace")
