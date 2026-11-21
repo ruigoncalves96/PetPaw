@@ -9,7 +9,7 @@ A cross-platform app (iOS, Android, maybe web) for pet owners to manage everythi
 | File | What it is |
 |---|---|
 | [PetPaw_Market_Study_and_Roadmap.md](PetPaw_Market_Study_and_Roadmap.md) | Review of the old PRD, market study, competitors, recommended features, tech stack, 5-phase roadmap, KPIs, risks |
-| [brand/palette-directions.html](brand/palette-directions.html) | Brand round 1: 4 colour directions (Moss & Marigold, Lagoon & Coral, Plum & Apricot, Cobalt & Sun) with WCAG checks, light and dark mockups, shared status and species colours. Published at https://claude.ai/artifact/Ryc3aVJvTo7QboCnW437NY |
+| [Palette directions (published page)](https://claude.ai/artifact/Ryc3aVJvTo7QboCnW437NY) | Brand round 1: 4 colour directions (Moss & Marigold, Lagoon & Coral, Plum & Apricot, Cobalt & Sun) with WCAG checks, light and dark mockups, shared status and species colours. The local HTML file was removed on 21 Nov 2026 and is still in git history (commit dfb3a4d). |
 | [brand/Brand_Foundation.md](brand/Brand_Foundation.md) | **Brand Foundation v1** (21 Nov 2026): soul "No animal forgotten", purpose, values, positioning, personality, voice, visual principles, naming brief, open decisions (§10). Built from the founders' answers to [brand/Brand_Foundation_Questions.md](brand/Brand_Foundation_Questions.md) (the answers file was not kept) |
 | [research/Competitor_PetNoter.md](research/Competitor_PetNoter.md) | PetNoter teardown: store stats, review mining (complaint/praise themes), implications, hands-on checklist |
 | [research/PetPaw_Survey_Tally.md](research/PetPaw_Survey_Tally.md) | Full survey build sheet (EN/PT), logic, codebook, analysis plan, launch checklist. **Kept in sync with the live forms.** |
