@@ -114,7 +114,7 @@ So the soul isn't "pet records". It's **remembering, on behalf of people who lov
 **Three tensions, and how we resolve them:**
 - **Vet nurse vs. friendly peer.** She *knows*, but *shares* rather than instructs: "Bearded dragons usually shed every 4–6 weeks", never "You must…". The expertise is in the content and the tone stays friendly.
 - **Minimal vs. illustrations.** The UI is minimal. Illustrations are rare, small and meaningful (empty states, milestones, the memorial), not decoration.
-- **Natural (5) vs. loving Arc/Dia.** What we take from Arc/Dia is their *craft*: smooth motion, human copy, soft colour and delightful details. We apply it to a *natural* palette and shapes. The result is modern in how it's made and organic in how it feels.
+- **Natural (5) vs. loving Arc/Dia.** What we take from Arc/Dia is their *craft*: smooth motion, human copy, soft colour and delightful details. We apply it to *natural* shapes and textures. The result is modern in how it's made and organic in how it feels.
 
 ---
 
@@ -149,7 +149,7 @@ So the soul isn't "pet records". It's **remembering, on behalf of people who lov
 
 1. **Calm and minimal.** Generous space, one focus per screen, few colours at a time.
 2. **Soft and round.** Rounded corners, soft shapes and gentle motion, matching the round-sounding name we want.
-3. **Natural warmth.** Earthy, living colours (garden, terrarium, meadow), executed with modern polish.
+3. **Natural warmth.** An organic, living feel, executed with modern polish.
 4. **Every species, drawn equally.** One consistent illustration and icon style for all animals. No paw, no bone, no default dog.
 5. **The animal is the hero.** The pet's photo and name lead every screen. The app is part **home dashboard** (today, what's next, everyone at a glance) and part **diary** (moments, history, memories).
 6. **Health moments get serious.** Clear hierarchy, plain colours for status, no decoration.
@@ -157,7 +157,7 @@ So the soul isn't "pet records". It's **remembering, on behalf of people who lov
 **References:** Arc / Dia browser for craft, motion and human copy.
 **Avoid:** Goodreads (dated), PetNoter (AI-slop imagery), stock photos of golden retrievers, neon "tech" gradients, clinical blue-and-white.
 
-**Palette (from round 1).** Your answers point clearly to **Moss & Marigold**: natural/organic = 5, warm = 1, calm and quiet. Moss ties every species together through habitat, and the marigold keeps it warm. **Plum & Apricot** is the warm, softer alternative. Cobalt & Sun is too bold and techy for a quiet score of 4, and Lagoon & Coral reads as generic health-tech. **⚑ Recommendation:** test Moss & Marigold against Plum & Apricot with 5–10 people.
+**Colour.** Not decided. The palette will be explored later, as its own round.
 
 **Typography direction (round 2).** A humanist sans with soft, rounded details for the UI. It should be friendly but never bubbly, with strong PT accents and good legibility at small sizes (to test: Figtree, Nunito Sans, Plus Jakarta Sans, DM Sans). Optionally, a soft serif for diary and memorial moments only (e.g. Fraunces at low "wonk").
 
@@ -195,7 +195,7 @@ So the soul isn't "pet records". It's **remembering, on behalf of people who lov
 **Style:** an invented word, a real word with a twist, a Portuguese-rooted word or a name (anything except descriptive). It can refer to animals, care, home, or none of these.
 **Not needed:** a .com or .pt domain. The store name is enough for now.
 
-**Process (next round):** longlist about 40 → sound and meaning check in 6 languages → founders shortlist 8 → store and trademark check → test the top 3 with 10 people alongside the palette.
+**Process (next round):** longlist about 40 → sound and meaning check in 6 languages → founders shortlist 8 → store and trademark check → test the top 3 with 10 people.
 
 ---
 
@@ -204,13 +204,12 @@ So the soul isn't "pet records". It's **remembering, on behalf of people who lov
 1. **Purpose line.** Is "every animal gets the care it deserves and is never forgotten" right?
 2. **What "family" means in the positioning.** Pets as family members, the household sharing care, or both? *(Recommended: both. But shared care ranked 5th in your launch priorities, so confirm it belongs in the headline.)*
 3. **"Tu" in Portuguese.** Confirm.
-4. **Palette.** Test Moss & Marigold against Plum & Apricot?
-5. **Talking as the animal.** Agree it's off by default?
-6. **Premium framing.** Agree with "more for your household + support us", with safety features always free?
+4. **Talking as the animal.** Agree it's off by default?
+5. **Premium framing.** Agree with "more for your household + support us", with safety features always free?
 
 ## 11. Next steps
 
 1. Founders review this doc and settle §10
 2. **Naming round** (brief in §9)
-3. Palette + name test with 5–10 people
+3. Name test with 5–10 people
 4. Brand round 2: typography → logo and symbol → app icon → design system

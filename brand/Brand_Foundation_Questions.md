@@ -2,9 +2,9 @@
 
 *Started 21 Nov 2026. Answer in PT or EN, short or long. Write your first answer from your gut. You can revise it later.*
 
-**How to use this:** the ★ questions are the core. If you only have 20 minutes, answer those first. Anything you're unsure about, write "unsure" and why. That's useful too. Once it's filled in, Claude turns it into a **Brand Foundation** (purpose, promise, values, personality, voice, visual principles), which then drives the name, logo, typography and the palette choice.
+**How to use this:** the ★ questions are the core. If you only have 20 minutes, answer those first. Anything you're unsure about, write "unsure" and why. That's useful too. Once it's filled in, Claude turns it into a **Brand Foundation** (purpose, promise, values, personality, voice, visual principles), which then drives the name, logo and typography.
 
-What we already know (from the market study and the survey work): every species, shared care, almost no typing; Portugal first, PT + EN; freemium; PetNoter is the main competitor; working name "PetPaw"; 4 palette directions exist (Moss & Marigold recommended).
+What we already know (from the market study and the survey work): every species, shared care, almost no typing; Portugal first, PT + EN; freemium; PetNoter is the main competitor; working name "PetPaw".
 
 ---
 
@@ -64,7 +64,7 @@ What we already know (from the market study and the survey work): every species,
 
 23. ★ **Name 3 brands (any industry) whose *feeling* you'd like to borrow, and what exactly you like about each.** E.g. Headspace (calm), Duolingo (character), Monzo (clarity), Aesop (craft), Patagonia (values).
 24. Name 1–2 brands or apps whose look you **don't** want to resemble. Why?
-25. ★ **Palette:** from round 1 (Moss & Marigold / Lagoon & Coral / Plum & Apricot / Cobalt & Sun), which 1–2 feel like *us*, and why?
+25. *(Colour question removed. The palette will be explored later, as its own round.)*
 26. Illustrations, photos, or neither? If illustration: realistic, flat, hand-drawn, or abstract?
 27. A **mascot or character**: yes, no, maybe later? If yes, which animal, or a non-species creature so no animal is "the main one"?
 28. Should the paw be part of the identity, or is it too generic (every pet app uses it)?

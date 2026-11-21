@@ -7,7 +7,7 @@
 | # | Name | Say it | Meaning / story | Conflicts found | Note |
 |---|---|---|---|---|---|
 | 1 | **Omia** | oh-MEE-ah | Invented. Echoes Latin *omnia*, "all things", so **every animal**. Finnish *omia* means "one's own". | None found | Round and soft (o, m, a). Easy in every language. Close to *Omiai*, a Japanese dating app (minor). |
-| 2 | **Nolia** | no-LEE-ah | Invented. Echoes *magnolia*, natural and gentle. Has no meaning, so the brand fills it. | Only a small marketing agency | The softest new name. Fits the natural palette. |
+| 2 | **Nolia** | no-LEE-ah | Invented. Echoes *magnolia*, natural and gentle. Has no meaning, so the brand fills it. | Only a small marketing agency | The softest new name. Fits the natural, organic feel. |
 | 3 | **Velia** | VEH-lee-ah | From PT/ES *velar (por)*, **to watch over**. Also an Italian name and an ancient Greek city in Italy. | Only an Italian waste-collection app | Same root as PT *velório* (a wake). Most people won't notice, but test it with Portuguese speakers. |
 | 4 | **Noa** | NO-ah | Echoes *Noé* / Noah, the ark, **no animal left behind**. Hawaiian *noa* means "free". | No app called Noa, but **Naya** (pet care) and **Noah's Ark Pet Connect** exist | The simplest name to say anywhere. It's also a popular baby and pet name, so it's harder to own. |
 | 5 | **Mieli** | MEE-eh-lee | Finnish "mind". Close to Italian *miele*, honey. | MIELI Mental Health Finland. **New: looks like *Miele*** (the big appliance brand, which has its own app). | Kept from round 1. Visual confusion with Miele is now a real risk. |
@@ -37,6 +37,6 @@
 ## How to test the 8
 
 1. **Cold read.** Show each written name to 5–10 people (PT, EN, ES, FR, DE speakers if possible). Ask them to say it aloud, then: *"What does it make you feel? What kind of product could it be?"*
-2. **Context test.** Put each name in a fake App Store tile with the Moss & Marigold palette ("[Name] — care for every animal") and ask which one they'd tap.
+2. **Context test.** Put each name in a plain, neutral fake App Store tile ("[Name] — care for every animal") and ask which one they'd tap.
 3. **Founders' gut check.** Say *"I keep all my animals in ___"* out loud. Which one would you be proud to say?
 4. **Trademark.** For the final 2–3, search [TMview](https://www.tmdn.org/tmview/) (EU + national, including INPI) in classes **9, 42, 44**. Then check that the App Store and Play Store names are free.
